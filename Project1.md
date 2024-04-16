@@ -29,8 +29,26 @@ Before creating an EC2 instance, choose the region closest to you. Consider fact
 
 **Next: Configure Instance Details**
 
+Before you launch an instance, you need to select a key pair which is then required for SSH access to the Server.
+
 
 <img width="810" alt="Screenshot 2024-04-15 at 10 29 31 PM" src="https://github.com/yasimenhaimed/Cloud-Projects-/assets/135265745/2853b1df-4be2-4470-94a6-ae8cea1017c4">
+
+When you launch an instance from an AMI, a root storage device is automatically created. This device contains everything needed to boot the instance. However, you can also add or configure additional storage volumes alongside the root device. These additional storage volumes are known as block devices and can be specified during the instance creation process.
+
+<img width="806" alt="Screenshot 2024-04-15 at 11 29 21 PM" src="https://github.com/yasimenhaimed/Cloud-Projects-/assets/135265745/b9331a1e-1d62-4139-820f-82b467a52e1a">
+
+
+
+
+Now, it's time to check the status of your instance. Click on your instance to see whether it's up and running or still in the process of being launched (pending). If your instance is running, you can proceed to view its details and access its information.
+
+
+<img width="1273" alt="Screenshot 2024-01-30 at 9 30 06 PM" src="https://github.com/yasimenhaimed/Cloud-Projects-/assets/135265745/aa474a4b-3c71-4367-aa5d-df2968d337e8">
+
+
+
+
 
 
 
